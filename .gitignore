@@ -32,3 +32,8 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.idea
+/smart-contracts/node_modules/
+/smart-contracts/artifacts/
+/smart-contracts/cache/
