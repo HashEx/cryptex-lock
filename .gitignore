@@ -42,3 +42,4 @@ yarn-error.log*
 /smart-contracts/coverage.json
 /smart-contracts/config.js
 /smart-contracts/.solhint.json
+frontend/.env

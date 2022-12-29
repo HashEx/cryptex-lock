@@ -676,7 +676,7 @@ interface IMigrator {
     function migrate(address lpToken, uint256 amount, uint256 unlockDate, address owner) external returns (bool);
 }
 
-contract eutLiquidityLocker is Ownable, ReentrancyGuard {
+contract LpLockerBSC is Ownable, ReentrancyGuard {
   using SafeMath for uint256;
   using EnumerableSet for EnumerableSet.AddressSet;
 
