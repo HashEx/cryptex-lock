@@ -1,9 +1,4 @@
 import { UseWalletProvider, ConnectionRejectedError } from 'use-wallet';
-import {
-    BscConnector,
-    UserRejectedRequestError,
-} from '@binance-chain/bsc-connector'
-
 import * as config from '../config';
 import PancakeswapLockerProvider from './PancakeswapLockerProvider';
 
